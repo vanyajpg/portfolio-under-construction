@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+  .image-size {
+    width: 75px; 
+    height: 75px;
+  }
+
+  .image-size-aws {
+    width: 90px; 
+    height: 75px;
+  }

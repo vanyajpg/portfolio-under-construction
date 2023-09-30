@@ -1,8 +1,12 @@
 import React from "react";
-import NavBar from "./components/navBar";
-import "./App.css";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
+import NavBar from "./components/navBar";
+import "./App.css";
+import About from "./components/about";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import Contact from "./components/contact";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -13,6 +17,10 @@ function App() {
         <CssBaseline />
         <div className="App">
           <NavBar />
+          <About/>
+          <Projects/>
+          <Skills/>
+          <Contact/>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>

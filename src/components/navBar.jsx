@@ -1,4 +1,4 @@
-import { Box, IconButton, Typography, useTheme } from "@mui/material";
+import { Box, IconButton, Link, useTheme } from "@mui/material";
 import { useContext } from "react";
 import { ColorModeContext, tokens } from "../theme";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
@@ -10,21 +10,55 @@ const NavBar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box
-      backgroundColor={colors.blue[400]}
-      className=" flex justify-between rounded-b p-8"
-    >
-      <Box>
-        <Typography color={colors.pink[500]} variant="h2" fontWeight={500}>
-          Vanya Sagam
-        </Typography>
+    <Box className=" flex justify-between rounded-b p-8">
+      <Box className="flex">
+        <Link
+          href="#about"
+          underline="none"
+          color={colors.pink[300]}
+          variant="h3"
+          fontWeight={500}
+          className="transform hover:scale-110 duration-500"
+        >
+          VanyaCodes
+        </Link>
       </Box>
-      <Box className="flex justify-center items-center space-x-24 border-2 border-red-500 ">
-        <Typography>Projects</Typography>
-        <Typography>Skills</Typography>
-        <Typography>Contact Me</Typography>
-      </Box>
-      <Box display="flex">
+
+      <Box className="flex">
+        <Link
+          href="#projects"
+          underline="none"
+          p="8px"
+          color={colors.pink[500]}
+          variant="h4"
+          fontWeight={400}
+          className="transform hover:scale-110 duration-500"
+        >
+          Projects
+        </Link>
+        <Link
+          href="#skills"
+          underline="none"
+          p="8px"
+          color={colors.pink[500]}
+          variant="h4"
+          fontWeight={400}
+          className="transform hover:scale-110 duration-500"
+        >
+          Skills
+        </Link>
+        <Link
+          href="#contact"
+          underline="none"
+          p="8px"
+          color={colors.pink[500]}
+          variant="h4"
+          fontWeight={400}
+          className="transform hover:scale-110 duration-500"
+          mr="32px"
+        >
+          Contact
+        </Link>
         <IconButton onClick={colorMode.toggleColorMode}>
           {theme.palette.mode === "dark" ? (
             <DarkModeOutlinedIcon />
