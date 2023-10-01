@@ -26,7 +26,7 @@ export default function Projects() {
             Projects
           </h1>
           <p
-            className="lg:w-2/3 mx-auto leading-relaxed text-xl  border-2 md:border-purple-500 lg:border-yellow-500"
+            className="lg:w-2/3 mx-auto leading-relaxed text-xl"
             style={pink}
           >
             A constantly developing developer.
