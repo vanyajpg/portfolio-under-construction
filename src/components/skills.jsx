@@ -24,10 +24,7 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-12">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1
-            className="text-5xl font-semibold title-font"
-            style={pink}
-          >
+          <h1 className="text-5xl font-semibold title-font" style={pink}>
             Tools & Technologies
           </h1>
         </div>
@@ -41,7 +38,7 @@ export default function Skills() {
               alt="html"
               className="image-size "
             />
-            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               html
             </p>
           </div>
@@ -51,7 +48,7 @@ export default function Skills() {
               alt="css"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               css
             </p>
           </div>
@@ -61,7 +58,7 @@ export default function Skills() {
               alt="tailwind"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               tailwind css
             </p>
           </div>
@@ -71,7 +68,7 @@ export default function Skills() {
               alt="javascript"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               javascript
             </p>
           </div>
@@ -81,7 +78,7 @@ export default function Skills() {
               alt="material"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               material ui
             </p>
           </div>
@@ -91,7 +88,7 @@ export default function Skills() {
               alt="material"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               react
             </p>
           </div>
@@ -101,7 +98,7 @@ export default function Skills() {
               alt="node"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               node
             </p>
           </div>
@@ -111,7 +108,7 @@ export default function Skills() {
               alt="mongodb"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               mongodb
             </p>
           </div>
@@ -121,7 +118,7 @@ export default function Skills() {
               alt="dbeaver"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               dbeaver
             </p>
           </div>
@@ -131,7 +128,7 @@ export default function Skills() {
               alt="aws"
               className="image-size-aws"
             />
-            <p className="flex text-md tracking-wide tranparent mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               aws
             </p>
           </div>
@@ -141,7 +138,7 @@ export default function Skills() {
               alt="figma"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               figma
             </p>
           </div>
@@ -151,7 +148,7 @@ export default function Skills() {
               alt="git"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               git
             </p>
           </div>
@@ -161,7 +158,7 @@ export default function Skills() {
               alt="jira"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               jira
             </p>
           </div>
@@ -171,7 +168,7 @@ export default function Skills() {
               alt="express"
               className="image-size flex justify-center items-center"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               express
             </p>
           </div>{" "}
@@ -181,7 +178,7 @@ export default function Skills() {
               alt="express"
               className="image-size flex justify-center items-center"
             />
-            <p className="flex text-md tracking-wide mt-2  text-[#acb4bb]">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               postman
             </p>
           </div>
