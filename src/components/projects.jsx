@@ -25,15 +25,18 @@ export default function Projects() {
           >
             Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-xl" style={pink}>
+          <p
+            className="lg:w-2/3 mx-auto leading-relaxed text-xl  border-2 md:border-purple-500 lg:border-yellow-500"
+            style={pink}
+          >
             A constantly developing developer.
           </p>
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-2  gap-8 ">
-          <div className="rounded shadow-lg">
-            <div class="flex justify-between p-4 bg-gray-300 rounded-t">
+        <div className="grid lg:grid-cols-2 gap-8 ">
+          <div className="rounded shadow-lg ">
+            <div class="flex justify-between p-4 bg-gray-300 rounded-t ">
               <h3 class=" font-bold text-lg">MilesTo</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -41,7 +44,10 @@ export default function Projects() {
                 <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
               </div>
             </div>
-            <a href="https://tattvajijnasa.com/" className="sm:w-1/2 w-100 ">
+            <a
+              href="https://github.com/vanyajpg/MilesTo"
+              className="sm:w-1/2 w-100 "
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -49,7 +55,7 @@ export default function Projects() {
                   style={{ height: "300px" }}
                   src={`../../assets/milesTo.gif`}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="pb-32 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 ">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     HTML, TailwindCSS, Embedded JavaScript, MongoDB, Node.js,
                     Express, React
@@ -87,7 +93,7 @@ export default function Projects() {
                   style={{ height: "300px" }}
                   src={`../../assets/tattva.png`}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     HTML, CSS, JAVASCRIPT, SCSS
                   </h2>
@@ -132,7 +138,7 @@ export default function Projects() {
                   style={{ height: "300px" }}
                   src={`../../assets/adminthat.png`}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     React.js React Pro Sidebar, MaterialUI, MaterialUI DataGrid,
                     FullCalendar, Formik, Yup, & Nivo
@@ -172,7 +178,7 @@ export default function Projects() {
                   style={{ height: "300px" }}
                   src={`../../assets/throughspace.png`}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     React.js, TailwindCSS, Node.js, HTML5/CSS3, Javascript ES6
                   </h2>

@@ -8,7 +8,7 @@ export default function About() {
   const colors = tokens(theme.palette.mode);
 
   const teal = {
-    color: colors.teal[200],
+    color: colors.blue[200],
   };
 
   return (
@@ -44,7 +44,7 @@ export default function About() {
             >
               <a
                 href="#contact"
-                className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-pink-500 rounded text-lg items-center "
+                className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-pink-400 hover:rounded-lg rounded text-lg items-center "
               >
                 Hire Me!
               </a>
@@ -57,7 +57,7 @@ export default function About() {
                 href="#projects"
                 ml={6}
                 variant="h5"
-                className=" inline-flex border-0 py-3 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl"
+                className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl"
               >
                 See My Past Work
               </Link>

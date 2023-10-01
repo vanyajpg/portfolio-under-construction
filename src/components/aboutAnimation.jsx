@@ -24,10 +24,10 @@ const AboutAnimation = () => {
       wrapper="span"
       speed={50}
       style={{
-        fontSize: "2.8em",
+        fontSize: "2.4em",
         display: "inline-block",
         fontWeight: "bold",
-        color: colors.teal[500],
+        color: colors.blue[100],
       }}
       repeat={Infinity}
     />
