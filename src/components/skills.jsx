@@ -17,20 +17,20 @@ export default function Skills() {
   return (
     <Box id="skills" backgroundColor={colors.blue[700]}>
       <div class="absolute bottom-100 left-0 transform translate-x-2 translate-y-8">
-        <div class="bg-gradient-to-br from-teal-100 to-teal-200  w-64 h-64 rounded-full absolute opacity-30 -m-4"></div>
-        <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full absolute ml-16 mt-32 opacity-30"></div>
-        <div class="bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full absolute ml-44 -mt-4 opacity-30"></div>
+        <div class="bg-gradient-to-br from-teal-100 to-teal-200  w-56 h-56 rounded-full absolute opacity-30 -m-4 animate-pulse"></div>
+        <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-56 h-56 rounded-full absolute ml-16 mt-32 opacity-30 animate-pulse"></div>
+        <div class="bg-gradient-to-br from-red-100 to-red-200 w-56 h-56 rounded-full absolute ml-44 -mt-4 opacity-30 animate-pulse"></div>
       </div>{" "}
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-12">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="text-5xl font-semibold title-font" style={pink}>
+          <h1 className=" relative text-5xl font-semibold title-font" style={pink}>
             Tools & Technologies
           </h1>
         </div>
         <div
           style={teal}
-          className=" relative opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 "
+          className=" relative opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
         >
           <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
@@ -38,7 +38,7 @@ export default function Skills() {
               alt="html"
               className="image-size "
             />
-            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible uppercase">
               html
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function Skills() {
               alt="css"
               className="image-size"
             />
-            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible uppercase">
               css
             </p>
           </div>
@@ -59,7 +59,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              tailwind css
+              tailwind CSS
             </p>
           </div>
           <div className="col-start-5 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -79,7 +79,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              material ui
+              material UI
             </p>
           </div>
           <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -109,7 +109,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              mongodb
+              mongoDB
             </p>
           </div>
           <div className="col-start-5 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -119,7 +119,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              dbeaver
+              dBeaver
             </p>
           </div>
           <div className="col-start-6 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -129,7 +129,7 @@ export default function Skills() {
               className="image-size-aws"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              aws
+              AWS
             </p>
           </div>
           <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">

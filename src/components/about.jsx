@@ -10,6 +10,9 @@ export default function About() {
   const teal = {
     color: colors.blue[200],
   };
+  const pink = {
+    color: colors.pink[300],
+  };
 
   return (
     <Box id="about" backgroundColor={colors.blue[800]}>
@@ -23,18 +26,19 @@ export default function About() {
         <div class="invisible lg:visible bg-gradient-to-br from-purple-100 to-purple-200 w-44 h-44 rounded-full absolute ml-16 mt-20 opacity-30"></div>
         <div class="invisible lg:visible bg-gradient-to-br from-red-100 to-red-200 w-44 h-44 rounded-full absolute ml-32 mt-4 opacity-30"></div>
       </div>
-      <section className="container mx-auto flex px-2 py-16 md:flex-row flex-col items-center">
-        <div className=" relative lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <section className="container mx-auto flex px-2 py-16 md:flex-row flex-col items-center ">
+        <div className=" relative lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mt-12">
           <AboutAnimation />
           <p
             style={teal}
-            className="mb-8 text-lg leading-relaxed tracking-wide "
+            className="mb-8 text-lg leading-relaxed tracking-wide mt-8  "
           >
-            Vanya Sagam is currently well-versed in JavaScript frameworks and is
-            dedicated to continue on her learning journey. Passionate about
-            crafting front-end, back-end, or full-stack solutions, she is
-            actively seeking opportunities to dedicate her skills and expertise
-            to these roles.
+            <span style={pink} className="font-semibold text-xl">Vanya Sagam</span> is currently
+            well-versed in JavaScript frameworks and is determined
+            to continue on her learning journey. Passionate about crafting
+            front-end, back-end, or full-stack solutions, she is {""}
+            <span style={pink} className="text-white italic">actively</span> seeking
+            opportunities to dedicate her skills and expertise to these roles.
           </p>
           <div className="flex justify-center">
             <Box
@@ -59,18 +63,18 @@ export default function About() {
                 variant="h5"
                 className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl text-center"
               >
-                See My Past Work
+                My Past Work
               </Link>
             </Box>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3 flex flex-col items-center">
           <img
-            className="object-cover object-center rounded-full"
+            className="object-cover object-center h-3/4 w-3/4 rounded-full opacity-80"
             alt=""
             src={`../../assets/user.png`}
           />
-          <div className="flex justify-center space-x-8 mt-2 ">
+          <div className="flex justify-center space-x-8 mt-4 ">
             <a href="https://www.linkedin.com/in/vanya-sagam/">
               <img
                 src={`../../assets/linkedin.png  `}

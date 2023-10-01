@@ -25,10 +25,7 @@ export default function Projects() {
           >
             Projects
           </h1>
-          <p
-            className="lg:w-2/3 mx-auto leading-relaxed text-xl"
-            style={pink}
-          >
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-xl" style={pink}>
             A constantly developing developer.
           </p>
         </div>
@@ -37,7 +34,7 @@ export default function Projects() {
         <div className="grid lg:grid-cols-2 gap-8 ">
           <div className="rounded shadow-lg ">
             <div class="flex justify-between p-4 bg-gray-300 rounded-t ">
-              <h3 class=" font-bold text-lg">MilesTo</h3>
+              <h3 class=" font-bold text-lg text-gray-500">MilesTo</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -77,8 +74,8 @@ export default function Projects() {
             </a>
           </div>{" "}
           <div className="rounded shadow-lg">
-            <div class="flex justify-between p-4 bg-gray-300 rounded-t">
-              <h3 class="  font-bold text-lg"> TATTVA-JIJÑĀSĀ</h3>
+            <div class="flex justify-between p-4 bg-gray-300 rounded-t relative">
+              <h3 class="  font-bold text-lg text-gray-500"> TATTVA-JIJÑĀSĀ</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -120,7 +117,7 @@ export default function Projects() {
           </div>{" "}
           <div className="rounded shadow-lg">
             <div class="flex justify-between p-4 bg-gray-300 rounded-t">
-              <h3 class="  font-bold text-lg">Admin That</h3>
+              <h3 class="  font-bold text-lg text-gray-500">Admin That</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
@@ -160,7 +157,7 @@ export default function Projects() {
           </div>{" "}
           <div className="rounded shadow-lg">
             <div class="flex justify-between p-4 bg-gray-300 rounded-t">
-              <h3 class="  font-bold text-lg">Through Space</h3>
+              <h3 class="  font-bold text-lg text-gray-500">Through Space</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
                 <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
