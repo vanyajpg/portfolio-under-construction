@@ -10,7 +10,7 @@ const NavBar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box className=" flex justify-between rounded-b p-6">
+    <Box className="flex justify-between items-center rounded-b p-4">
       <Box className="flex">
         <Link
           href="#about"
@@ -28,7 +28,7 @@ const NavBar = () => {
         <Link
           href="#projects"
           underline="none"
-          p="8px"
+          p="16px 5px 0px 0px"
           color={colors.pink[500]}
           variant="h4"
           fontWeight={700}
@@ -39,7 +39,7 @@ const NavBar = () => {
         <Link
           href="#skills"
           underline="none"
-          p="8px"
+          p="16px"
           color={colors.pink[500]}
           variant="h4"
           fontWeight={700}
@@ -50,16 +50,16 @@ const NavBar = () => {
         <Link
           href="#contact"
           underline="none"
-          p="8px"
+          p="16px"
           color={colors.pink[500]}
           variant="h4"
           fontWeight={700}
-          className=" transform hover:scale-110 duration-500"
-          mr="32px"
+          className="transform hover:scale-110 duration-500 "
+          mr="24px"
         >
           Contact
         </Link>
-        <IconButton onClick={colorMode.toggleColorMode}>
+        <IconButton onClick={colorMode.toggleColorMode} >
           {theme.palette.mode === "dark" ? (
             <DarkModeOutlinedIcon />
           ) : (
