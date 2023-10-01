@@ -1,4 +1,4 @@
-# 🫧 Vanya Saga New Portfolio 
+# 🫧 Vanya Sagam New Portfolio 
 
 ## [Hosted Here on Netlify](https://vanyacodes.netlify.app)
 
