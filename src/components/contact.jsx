@@ -14,10 +14,10 @@ export default function Contact() {
       <div className="container py-12 mx-auto text-center ">
         <div className="flex flex-col w-full mb-20">
           <h1
-            className="sm:text-5xl text-3xl font-semibold  title-font mb-4 text-white"
+            className="sm:text-5xl text-3xl font-semibold  title-font mb-4"
             style={pink}
           >
-            Let's Get in Touch!
+           Get in Touch!
           </h1>
           <div className="flex justify-center space-x-8">
             <a href="https://www.linkedin.com/in/vanya-sagam/">

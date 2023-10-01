@@ -44,7 +44,7 @@ export default function About() {
             >
               <a
                 href="#contact"
-                className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-pink-400 hover:rounded-lg rounded text-lg items-center "
+                className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-pink-400 hover:rounded-lg rounded text-lg items-center text-center "
               >
                 Hire Me!
               </a>
@@ -57,7 +57,7 @@ export default function About() {
                 href="#projects"
                 ml={6}
                 variant="h5"
-                className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl"
+                className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl text-center"
               >
                 See My Past Work
               </Link>
@@ -66,7 +66,7 @@ export default function About() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3">
           <img
-            className="object-cover object-center rounded-2xl"
+            className="object-cover object-center rounded-full"
             alt=""
             src={`../../assets/user.png`}
           />

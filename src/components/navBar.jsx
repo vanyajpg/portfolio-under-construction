@@ -54,7 +54,7 @@ const NavBar = () => {
           color={colors.pink[500]}
           variant="h4"
           fontWeight={700}
-          className="transform hover:scale-110 duration-500 "
+          className=" hidden md:inline-block transform hover:scale-110 duration-500 "
           mr="24px"
         >
           Contact
