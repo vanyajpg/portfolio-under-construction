@@ -10,29 +10,29 @@ const NavBar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box className=" flex justify-between rounded-b p-8">
+    <Box className=" flex justify-between rounded-b p-6">
       <Box className="flex">
         <Link
           href="#about"
           underline="none"
           color={colors.pink[300]}
-          variant="h3"
-          fontWeight={500}
+          variant="h2"
+          fontWeight={600}
           className="transform hover:scale-110 duration-500"
         >
           VanyaCodes
         </Link>
       </Box>
 
-      <Box className="flex">
+      <Box className="">
         <Link
           href="#projects"
           underline="none"
           p="8px"
           color={colors.pink[500]}
           variant="h4"
-          fontWeight={400}
-          className="transform hover:scale-110 duration-500"
+          fontWeight={700}
+          className="hidden md:inline-block transform hover:scale-110 duration-500"
         >
           Projects
         </Link>
@@ -42,8 +42,8 @@ const NavBar = () => {
           p="8px"
           color={colors.pink[500]}
           variant="h4"
-          fontWeight={400}
-          className="transform hover:scale-110 duration-500"
+          fontWeight={700}
+          className=" hidden md:inline-block transform hover:scale-110 duration-500"
         >
           Skills
         </Link>
@@ -53,8 +53,8 @@ const NavBar = () => {
           p="8px"
           color={colors.pink[500]}
           variant="h4"
-          fontWeight={400}
-          className="transform hover:scale-110 duration-500"
+          fontWeight={700}
+          className=" transform hover:scale-110 duration-500"
           mr="32px"
         >
           Contact

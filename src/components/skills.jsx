@@ -1,4 +1,4 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import { Box, useTheme } from "@mui/material";
 import { tokens } from "../theme";
 import React from "react";
@@ -10,33 +10,30 @@ export default function Skills() {
   const pink = {
     color: colors.pink[200],
   };
-    const lightblue = {
-      color: colors.blue[200],
-    };
+
   const teal ={
     backgroundColor: colors.blue[600]
   }
   return (
     <Box id="skills" backgroundColor={colors.blue[700]}>
+      <div class="absolute bottom-100 left-0 transform translate-x-2 translate-y-8">
+        <div class="bg-gradient-to-br from-teal-100 to-teal-200  w-64 h-64 rounded-full absolute opacity-30 -m-4"></div>
+        <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full absolute ml-16 mt-32 opacity-30"></div>
+        <div class="bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full absolute ml-44 -mt-4 opacity-30"></div>
+      </div>{" "}
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-12">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1
-            className="sm:text-4xl text-3xl font-semibold title-font text-white mb-4"
+            className="text-5xl font-semibold title-font"
             style={pink}
           >
             Tools & Technologies
           </h1>
-          {/* <p
-            className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto"
-            style={pink}
-          >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          </p> */}
         </div>
         <div
           style={teal}
-          className=" ml-32 mr-32 mb-32 py-12 grid grid-cols-7 grid-rows-2 gap-8 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 "
+          className=" relative opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 "
         >
           <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
