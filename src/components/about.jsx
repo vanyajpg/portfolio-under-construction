@@ -36,8 +36,8 @@ export default function About() {
             <span style={pink} className="font-semibold text-xl">
               Vanya Sagam
             </span>{" "}
-            is currently well-versed in JavaScript frameworks and is determined
-            to continue on her learning journey. Passionate about crafting
+            is currently well-versed in JavaScript frameworks and has a knack
+            for picking up new techniques quickly. Passionate about crafting
             front-end, back-end, or full-stack solutions, she is {""}
             <span style={pink} className="text-white italic">
               actively
@@ -45,12 +45,35 @@ export default function About() {
             seeking opportunities to dedicate her skills and expertise to these
             roles.
           </p>
-          {/* <p className="mb-8 text-lg leading-relaxed tracking-wide mt-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil est
-            nemo tempore quam, quis incidunt voluptatibus earum natus aperiam
-            reprehenderit facere vel libero ullam vero porro sequi unde nesciunt
-            veritatis.
-          </p> */}
+          <p
+            style={teal}
+            className="mb-8 text-lg leading-relaxed tracking-wide mt-8"
+          >
+            {" "}
+            By leveraging her background degree in{" "}
+            <span style={pink} className="text-white ">
+              Management Information Systems
+            </span>{" "}
+            and a minor in{" "}
+            <span style={pink} className="text-white ">
+              management
+            </span>
+            , Vanya possesses great communication skills and can skillfully
+            manage client requirements due to her past projects working with stakholders and communicating both sides of the business
+            transaction. Her versatile experience at MassMutual, where she
+            served as both a{" "}
+            <span style={pink} className="text-white italic">
+              web developer
+            </span>{" "}
+            and a{" "}
+            <span style={pink} className="text-white italic">
+              data analyst
+            </span>
+            , have aided her in becoming a highly{" "}
+            <span style={pink} className="text-white font-semibold">
+              versatile and well-rounded engineer
+            </span>.
+          </p>
           <div className="flex justify-center">
             <Box
               backgroundColor={colors.pink[400]}
