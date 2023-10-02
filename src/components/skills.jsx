@@ -17,9 +17,9 @@ export default function Skills() {
   return (
     <Box id="skills" backgroundColor={colors.blue[700]}>
       <div class="absolute bottom-100 left-0 transform translate-x-2 translate-y-8">
-        <div class="bg-gradient-to-br from-teal-100 to-teal-200  w-56 h-56 rounded-full absolute opacity-30 -m-4 animate-pulse"></div>
-        <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-56 h-56 rounded-full absolute ml-16 mt-32 opacity-30 animate-pulse"></div>
-        <div class="bg-gradient-to-br from-red-100 to-red-200 w-56 h-56 rounded-full absolute ml-44 -mt-4 opacity-30 animate-pulse"></div>
+        <div class="invisible lg:visible bg-gradient-to-br from-teal-100 to-teal-200  w-56 h-56 rounded-full absolute opacity-20 -m-4 animate-pulse"></div>
+        <div class="invisible lg:visible bg-gradient-to-br from-purple-100 to-purple-200 w-56 h-56 rounded-full absolute ml-16 mt-32 opacity-20 animate-pulse"></div>
+        <div class="invisible lg:visible bg-gradient-to-br from-red-100 to-red-200 w-56 h-56 rounded-full absolute ml-44 -mt-4 opacity-20 animate-pulse"></div>
       </div>{" "}
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-12">
@@ -30,7 +30,7 @@ export default function Skills() {
         </div>
         <div
           style={teal}
-          className=" relative opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
+          className=" relative  opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
         >
           <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img

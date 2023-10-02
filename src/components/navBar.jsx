@@ -10,7 +10,7 @@ const NavBar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box className="flex justify-between items-center rounded-b p-4">
+    <Box className="flex justify-between items-center rounded-b pt-4 pr-4 pl-4 ">
       <Box className="flex">
         <Link
           href="#about"

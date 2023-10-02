@@ -28,6 +28,7 @@ const AboutAnimation = () => {
         display: "inline-block",
         fontWeight: "bold",
         color: colors.blue[100],
+        position: "relative"
       }}
       repeat={Infinity}
     />
