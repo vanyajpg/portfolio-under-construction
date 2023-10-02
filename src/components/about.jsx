@@ -96,7 +96,7 @@ export default function About() {
                 Passion Projects
               </Link>
             </Box>
-            <div className="flex  space-x-8 mt-4 lg:mt-0">
+            <div className="flex space-x-8 mt-8 lg:mt-0">
               <a href="https://www.linkedin.com/in/vanya-sagam/">
                 <img
                   src={`../../assets/linkedin.png  `}
