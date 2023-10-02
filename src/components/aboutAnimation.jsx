@@ -28,8 +28,10 @@ const AboutAnimation = () => {
         display: "inline-block",
         fontWeight: "bold",
         color: colors.blue[100],
-        position: "relative"
+        position: "relative",
+        height: "100px",
       }}
+      className="pt-8"
       repeat={Infinity}
     />
   );

@@ -3,20 +3,24 @@
 @tailwind utilities;
 
 .image-size {
-  width: 5rem;
-  height: 5rem;
+  width: 6em;
+  height: 6em;
 }
 
 .image-size-aws {
-  width: 6rem;
-  height: 5rem;
+  width: 6em;
+  height: 5em;
 }
 
 .image-size-contact {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 }
 .image-size-mini {
   width: 35px;
   height: 35px;
+}
+
+canvas {
+  background: #232323;
 }

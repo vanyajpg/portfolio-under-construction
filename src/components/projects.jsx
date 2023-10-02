@@ -11,10 +11,7 @@ export default function Projects() {
     color: colors.pink[200],
   };
   return (
-    <Box
-      id="projects"
-      backgroundColor={colors.blue[700]}
-    >
+    <Box id="projects" backgroundColor={colors.blue[700]}>
       <div className="container px-5 py-4 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -43,6 +40,8 @@ export default function Projects() {
             <a
               href="https://github.com/vanyajpg/MilesTo"
               className="sm:w-1/2 w-100 "
+              target="_blank"
+              rel="noreferrer"
             >
               <div className="flex relative">
                 <img
@@ -81,7 +80,12 @@ export default function Projects() {
                 <div class="w-3 h-3 bg-emerald-500 rounded-full"></div>
               </div>
             </div>
-            <a href="https://tattvajijnasa.com/" className="sm:w-1/2 w-100 ">
+            <a
+              href="https://tattvajijnasa.com/"
+              className="sm:w-1/2 w-100 "
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -133,6 +137,8 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   style={{ height: "300px" }}
                   src={`../../assets/adminthat.png`}
+                  target="_blank"
+                  rel="noreferrer"
                 />
                 <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
@@ -173,6 +179,8 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   style={{ height: "300px" }}
                   src={`../../assets/throughspace.png`}
+                  target="_blank"
+                  rel="noreferrer"
                 />
                 <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">

@@ -31,7 +31,7 @@ export default function About() {
           <AboutAnimation />
           <p
             style={teal}
-            className="text-lg leading-relaxed tracking-wide mt-8 mb-4"
+            className="text-lg leading-relaxed tracking-wide lg:-mt-2 md:mt-4 mt-8 pt-6 "
           >
             <span style={pink} className="font-semibold text-xl">
               Vanya Sagam
@@ -59,23 +59,17 @@ export default function About() {
               management
             </span>
             , Vanya possesses great communication skills and can skillfully
-            manage client requirements due to her past projects working with stakholders and communicating both sides of the business
-            transaction. Her versatile experience at MassMutual, where she
-            served as both a{" "}
-            <span style={pink} className="text-white italic">
+            manage customer requirements. Her versatile experience at
+            MassMutual, where she currently serves as a{" "}
+            <span style={pink} className="text-white ">
               web developer
-            </span>{" "}
-            and a{" "}
-            <span style={pink} className="text-white italic">
-              data analyst
             </span>
-            , have aided her in becoming a highly{" "}
+            , has contributed to her development as a remarkably{" "}
             <span style={pink} className="text-white font-semibold">
-              versatile and well-rounded engineer
-            </span>.
+              well-rounded engineer
+            </span>
           </p>
-          <div className="flex justify-center">
-            <Box
+          {/* <Box
               backgroundColor={colors.pink[400]}
               sx={{ borderRadius: "10%" }}
               className="animate-pulse shadow-lg hover:shadow-xl"
@@ -86,20 +80,45 @@ export default function About() {
               >
                 Hire Me!
               </a>
-            </Box>
-            <Box sx={{ borderRadius: "10%" }}>
+              
+            </Box> */}
+          <div className="flex lg:flex-row flex-col w-full justify-between items-center ">
+            <Box sx={{ borderRadius: "10%"}}>
               <Link
-                backgroundColor={colors.blue[400]}
+                backgroundColor={colors.pink[400]}
                 color={"#fff"}
                 underline="none"
                 href="#projects"
-                ml={6}
                 variant="h5"
-                className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl text-center"
+                fontWeight={700}
+                className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-pink-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl text-center leading-relaxed"
               >
                 Passion Projects
               </Link>
             </Box>
+            <div className="flex  space-x-8 mt-4 lg:mt-0">
+              <a href="https://www.linkedin.com/in/vanya-sagam/">
+                <img
+                  src={`../../assets/linkedin.png  `}
+                  alt="css"
+                  className="image-size-mini transform hover:scale-110 duration-500"
+                />
+              </a>
+              <a href="https://github.com/vanyajpg">
+                <img
+                  src={`../../assets/github.png  `}
+                  alt="css"
+                  className="image-size-mini transform hover:scale-110 duration-500"
+                />
+              </a>
+              <a href="mailto: vanyasagam@gmail.com">
+                <img
+                  src={`../../assets/email.png  `}
+                  alt="css"
+                  className="image-size-mini transform hover:scale-110 duration-500"
+                />
+              </a>
+            </div>
           </div>
         </div>
         {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3 flex flex-col items-center">

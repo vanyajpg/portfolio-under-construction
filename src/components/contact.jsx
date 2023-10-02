@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="container py-12 mx-auto text-center ">
         <div className="flex flex-col w-full mb-20">
           <h1
-            className="sm:text-5xl text-3xl font-semibold  title-font mb-4"
+            className="text-5xl font-semibold  title-font mb-4"
             style={pink}
           >
            Get in Touch!

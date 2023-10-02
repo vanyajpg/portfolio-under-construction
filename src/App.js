@@ -17,10 +17,10 @@ function App() {
         <CssBaseline />
         <div className="App">
           <NavBar />
-          <About/>
-          <Projects/>
-          <Skills/>
-          <Contact/>
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>

@@ -24,15 +24,18 @@ export default function Skills() {
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-12">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className=" relative text-5xl font-semibold title-font" style={pink}>
+          <h1
+            className=" relative text-5xl font-semibold title-font"
+            style={pink}
+          >
             Tools & Technologies
           </h1>
         </div>
         <div
           style={teal}
-          className=" relative  opacity-100 lg:ml-32 lg:mr-32 lg:mb-12 lg:py-12 py-8 grid grid-cols-7 grid-rows-2 lg:gap-8 gap-4 rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
+          className=" relative opacity-100 lg:py-12  flex justify-center flex-wrap gap-x-16 gap-y-8 items-center rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
         >
-          <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className=" transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/html.png  `}
               alt="html"
@@ -42,7 +45,7 @@ export default function Skills() {
               html
             </p>
           </div>
-          <div className="col-start-3 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/css.png  `}
               alt="css"
@@ -52,7 +55,7 @@ export default function Skills() {
               css
             </p>
           </div>
-          <div className="col-start-4 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/tailwind.png  `}
               alt="tailwind"
@@ -62,7 +65,7 @@ export default function Skills() {
               tailwind CSS
             </p>
           </div>
-          <div className="col-start-5 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/javascript.png  `}
               alt="javascript"
@@ -72,7 +75,7 @@ export default function Skills() {
               javascript
             </p>
           </div>
-          <div className="col-start-6 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/material.png  `}
               alt="material"
@@ -82,7 +85,7 @@ export default function Skills() {
               material UI
             </p>
           </div>
-          <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/react.png  `}
               alt="material"
@@ -92,7 +95,7 @@ export default function Skills() {
               react
             </p>
           </div>
-          <div className="col-start-3 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/node.png  `}
               alt="node"
@@ -102,7 +105,7 @@ export default function Skills() {
               node
             </p>
           </div>
-          <div className="col-start-4 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/mongodb.png  `}
               alt="mongodb"
@@ -112,7 +115,7 @@ export default function Skills() {
               mongoDB
             </p>
           </div>
-          <div className="col-start-5 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/dbeaver.png  `}
               alt="dbeaver"
@@ -122,7 +125,7 @@ export default function Skills() {
               dBeaver
             </p>
           </div>
-          <div className="col-start-6 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/aws.png  `}
               alt="aws"
@@ -132,7 +135,7 @@ export default function Skills() {
               AWS
             </p>
           </div>
-          <div className="col-start-2 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/figma.png  `}
               alt="figma"
@@ -142,7 +145,7 @@ export default function Skills() {
               figma
             </p>
           </div>
-          <div className="col-start-3 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/git.png  `}
               alt="git"
@@ -152,7 +155,7 @@ export default function Skills() {
               git
             </p>
           </div>
-          <div className="col-start-4 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/jira.png  `}
               alt="jira"
@@ -162,7 +165,7 @@ export default function Skills() {
               jira
             </p>
           </div>
-          <div className="col-start-5 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/express.png  `}
               alt="express"
@@ -172,7 +175,7 @@ export default function Skills() {
               express
             </p>
           </div>{" "}
-          <div className="col-start-6 transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
               src={`../../assets/postman.png  `}
               alt="express"
