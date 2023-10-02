@@ -24,11 +24,11 @@ const NavBar = () => {
         </Link>
       </Box>
 
-      <Box className="">
+      <Box className="flex justify-center items-center">
         <Link
           href="#projects"
           underline="none"
-          p="16px 5px 0px 0px"
+          p="0px 5px 0px 0px"
           color={colors.pink[500]}
           variant="h4"
           fontWeight={700}
@@ -59,13 +59,15 @@ const NavBar = () => {
         >
           Contact
         </Link>
-        <IconButton onClick={colorMode.toggleColorMode} >
-          {theme.palette.mode === "dark" ? (
-            <DarkModeOutlinedIcon />
-          ) : (
-            <LightModeOutlinedIcon />
-          )}
-        </IconButton>
+        <Box sx={{mr:"4px"}}>
+          <IconButton onClick={colorMode.toggleColorMode} >
+            {theme.palette.mode === "dark" ? (
+              <DarkModeOutlinedIcon />
+            ) : (
+              <LightModeOutlinedIcon />
+            )}
+          </IconButton>
+        </Box>
       </Box>
     </Box>
   );

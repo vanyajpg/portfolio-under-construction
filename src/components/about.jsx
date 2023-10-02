@@ -26,7 +26,7 @@ export default function About() {
         <div class="invisible lg:visible bg-gradient-to-br from-purple-100 to-purple-200 w-44 h-44 rounded-full absolute ml-16 mt-20 opacity-30"></div>
         <div class="invisible lg:visible bg-gradient-to-br from-red-100 to-red-200 w-44 h-44 rounded-full absolute ml-32 mt-4 opacity-30"></div>
       </div>
-      <section className="container mx-auto flex px-2 py-16 md:flex-row flex-col items-center ">
+      <section className="container mx-auto flex px-2 py-16 md:flex-row flex-col items-center w-3/4 ">
         <div className=" relative lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center mt-12">
           <AboutAnimation />
           <p
@@ -68,7 +68,7 @@ export default function About() {
             </Box>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3 flex flex-col items-center">
+        {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-2/3 flex flex-col items-center">
           <img
             className="object-cover object-center h-3/4 w-3/4 rounded-full opacity-80"
             alt=""
@@ -97,7 +97,7 @@ export default function About() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
     </Box>
   );
