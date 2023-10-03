@@ -66,7 +66,7 @@ export default function About() {
             </span>
             , has contributed to her development as a remarkably{" "}
             <span style={pink} className="text-white font-semibold">
-              well-rounded engineer
+              well-rounded engineer.
             </span>
           </p>
           {/* <Box
@@ -83,7 +83,7 @@ export default function About() {
               
             </Box> */}
           <div className="flex lg:flex-row flex-col w-full justify-between items-center ">
-            <Box sx={{ borderRadius: "10%"}}>
+            <Box sx={{ borderRadius: "10%" }}>
               <Link
                 backgroundColor={colors.pink[400]}
                 color={"#fff"}

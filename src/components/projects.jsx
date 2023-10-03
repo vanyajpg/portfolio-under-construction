@@ -27,7 +27,7 @@ export default function Projects() {
         </div>
 
         {/* GRID */}
-        <div className="grid lg:grid-cols-2 gap-8 ">
+        <div className="grid gap-8 xl:grid-cols-2">
           <div className="rounded shadow-lg ">
             <div class="flex justify-between p-4 bg-gray-300 rounded-t ">
               <h3 class=" font-bold text-lg text-gray-500">MilesTo</h3>
