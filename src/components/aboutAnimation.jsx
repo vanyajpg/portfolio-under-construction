@@ -12,7 +12,7 @@ const AboutAnimation = () => {
       sequence={[
         "Hi I'm Vanya,",
         500,
-        "Hi I'm Vanya, a Software Engineer ",
+        "Hi I'm Vanya, a Web Developer",
         1000,
         "Hi I'm Vanya, an animal lover",
         1000,
