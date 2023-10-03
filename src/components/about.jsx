@@ -16,7 +16,7 @@ export default function About() {
 
   return (
     <Box id="about" backgroundColor={colors.blue[800]}>
-      <div class="absolute top-0 left-0 transform translate-x-2 translate-y-20">
+      <div class="absolute top-0 left-0 transform translate-x-4 translate-y-24">
         <div class="bg-gradient-to-br from-teal-100 to-teal-200 lg:w-24 lg:h-24 md:w-16 md:h-16 w-12 h-12 -ml-2 rounded-full absolute opacity-30"></div>
         <div class="bg-gradient-to-br from-purple-100 to-purple-200 lg:w-24 lg:h-24 md:w-16 md:h-16 w-12 h-12 rounded-full absolute lg:ml-10 md:ml-6 lg:mt-10 md:mt-8 mt-4 ml-2 opacity-30"></div>
         <div class="bg-gradient-to-br from-red-100 to-red-200 lg:w-24 lg:h-24 md:w-16 md:h-16  w-12 h-12 rounded-full absolute lg:ml-20 md:ml-12 ml-6 opacity-30"></div>
@@ -56,7 +56,7 @@ export default function About() {
             </span>{" "}
             and a minor in{" "}
             <span style={pink} className="text-white ">
-              management
+              Management
             </span>
             , Vanya possesses great communication skills and can skillfully
             manage customer requirements. Her versatile experience at

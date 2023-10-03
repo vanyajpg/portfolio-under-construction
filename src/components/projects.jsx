@@ -16,7 +16,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1
-            className="sm:text-4xl text-3xl font-semibold  title-font mb-2 text-white"
+            className="sm:text-4xl text-3xl  title-font mb-2 text-pink-100 font-semibold"
             style={pink}
           >
             Projects
@@ -51,14 +51,14 @@ export default function Projects() {
                   src={`../../assets/milesTo.gif`}
                 />
                 <div className="pb-32 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 ">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-100 my-2">
                     HTML, TailwindCSS, Embedded JavaScript, MongoDB, Node.js,
                     Express, React
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg font-semibold tracking-wide text-pink-200 mb-3 ">
                     MilesTo
                   </h1>
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed text-blue-100 text-md tracking-wide mx-4 ">
                     As someone who is now living in NYC, I thought it would be
                     extremely fascinating to be able to tally up all the miles I
                     have ever walked in the last few months. Unfortunately, I
@@ -94,13 +94,13 @@ export default function Projects() {
                   src={`../../assets/tattva.png`}
                 />
                 <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-100 mb-1">
                     HTML, CSS, JAVASCRIPT, SCSS
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg text-pink-100 font-semibold mb-3 tracking-wide">
                     TATTVA-JIJÑĀSĀ
                   </h1>
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed text-blue-100 text-md tracking-wide">
                     Here is a probono website I created for a NYC-based
                     nonprofit organization. <br />
                     <strong>
@@ -141,14 +141,14 @@ export default function Projects() {
                   rel="noreferrer"
                 />
                 <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-100 mb-1">
                     React.js React Pro Sidebar, MaterialUI, MaterialUI DataGrid,
                     FullCalendar, Formik, Yup, & Nivo
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg  text-pink-100 font-semibold mb-3 tracking-wide">
                     Admin That{" "}
                   </h1>
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed text-blue-100 text-md tracking-wide">
                     <strong>Admin That</strong> is a powerful app with a sleek
                     and intuitive admin dashboard. Effortlessly manage your
                     administrative tasks, access real-time data, and make
@@ -183,13 +183,13 @@ export default function Projects() {
                   rel="noreferrer"
                 />
                 <div className="px-8 py-16 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-100 mb-1">
                     React.js, TailwindCSS, Node.js, HTML5/CSS3, Javascript ES6
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-lg  text-pink-100 font-semibold mb-3 tracking-wide">
                     Through Space
                   </h1>
-                  <p className="leading-relaxed">
+                  <p className="leading-relaxed text-blue-100 text-md tracking-wide">
                     Ever since I was a child, I have loved observing and
                     tracking celestial events in outer space. One of my earliest
                     birthday gifts was a pair of binoculars, which allowed me to
