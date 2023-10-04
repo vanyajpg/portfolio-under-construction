@@ -11,17 +11,27 @@ const NavBar = () => {
 
   return (
     <Box className="flex justify-between items-center rounded-b pt-4 pr-4 pl-4 pb-2 ">
-      <Box className="flex">
+      <Box className="flex transform hover:scale-110 duration-500 pl-1">
         <Link
           href="#about"
           underline="none"
           color={colors.pink[300]}
-          variant="h2"
+          variant="h3"
           fontWeight={600}
-          className="transform hover:scale-110 duration-500"
+          className=" uppercase"
         >
-          VanyaCodes
+          Vanya
         </Link>
+        <Link
+          href="#about"
+          underline="none"
+          color={colors.maroon[300]}
+          variant="h3"
+          fontWeight={500}
+          className=" uppercase pl-1"
+        >
+          Codes
+        </Link>{" "}
       </Box>
 
       <Box className="flex justify-center items-center">
@@ -59,8 +69,8 @@ const NavBar = () => {
         >
           Contact
         </Link>
-        <Box sx={{mr:"4px"}}>
-          <IconButton onClick={colorMode.toggleColorMode} >
+        <Box sx={{ mr: "4px" }}>
+          <IconButton onClick={colorMode.toggleColorMode}>
             {theme.palette.mode === "dark" ? (
               <DarkModeOutlinedIcon />
             ) : (

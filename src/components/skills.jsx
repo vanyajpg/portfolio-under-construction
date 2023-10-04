@@ -33,7 +33,7 @@ export default function Skills() {
         </div>
         <div
           style={teal}
-          className=" relative opacity-100 lg:py-12  flex justify-center flex-wrap gap-x-16 gap-y-8 items-center rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500 capitalize "
+          className=" relative opacity-100 lg:py-12  flex justify-center flex-wrap gap-x-16 gap-y-8 items-center rounded-3xl pt-6 shadow-lg hover:shadow-2xl duration-500  "
         >
           <div className=" transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
             <img
@@ -62,7 +62,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              tailwind CSS
+              Tailwind CSS
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -72,7 +72,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              javascript
+              Javascript
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -82,7 +82,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              material UI
+              Material UI
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -92,7 +92,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              react
+              React
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -102,7 +102,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              node
+              Node
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -112,7 +112,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              mongoDB
+              MongoDB
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -123,6 +123,16 @@ export default function Skills() {
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
               dBeaver
+            </p>
+          </div>{" "}
+          <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
+            <img
+              src={`../../assets/nextjs.png  `}
+              alt=""
+              className="image-size"
+            />
+            <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
+              Next.js
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -142,7 +152,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              figma
+              Figma
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -152,7 +162,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              git
+              Git
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -162,7 +172,7 @@ export default function Skills() {
               className="image-size"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              jira
+              Jira
             </p>
           </div>
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -172,7 +182,7 @@ export default function Skills() {
               className="image-size flex justify-center items-center"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              express
+              Express
             </p>
           </div>{" "}
           <div className="transform duration-500 hover:scale-125 flex flex-col items-center font-bold">
@@ -182,7 +192,7 @@ export default function Skills() {
               className="image-size flex justify-center items-center"
             />
             <p className="flex text-md tracking-wide mt-2 text-[#acb4bb] invisible lg:visible">
-              postman
+              Postman
             </p>
           </div>
         </div>
