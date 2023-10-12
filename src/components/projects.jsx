@@ -28,8 +28,8 @@ export default function Projects() {
 
         {/* GRID */}
         <div className="grid gap-8 xl:grid-cols-2">
-          <div className="rounded shadow-lg ">
-            <div class="flex justify-between p-4 bg-gray-300 rounded-t ">
+          <div className="rounded shadow-lg">
+            <div class="flex justify-between p-4 bg-gray-300 rounded-t">
               <h3 class=" font-bold text-lg text-gray-500">MilesTo</h3>
               <div class="flex space-x-2 items-center">
                 <div class="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -64,7 +64,7 @@ export default function Projects() {
                     have ever walked in the last few months. Unfortunately, I
                     was not able to find any existing application that had this
                     functionality. This is how the idea for
-                    <strong>{" "}MilesTo</strong> was created! MilesTo is a MERN
+                    <strong> MilesTo</strong> was created! MilesTo is a MERN
                     application encouraging you to reach your daily step goals.
                   </p>
                 </div>
@@ -194,7 +194,7 @@ export default function Projects() {
                     tracking celestial events in outer space. One of my earliest
                     birthday gifts was a pair of binoculars, which allowed me to
                     appreciate the planets in the night sky. Creating
-                    <strong>{" "}Through Space</strong> became a meaningful way for
+                    <strong> Through Space</strong> became a meaningful way for
                     me to not only share my passion with others but also to
                     expand my knowledge of celestial phenomena.
                   </p>

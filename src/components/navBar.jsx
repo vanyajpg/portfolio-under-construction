@@ -30,13 +30,13 @@ const NavBar = () => {
           fontWeight={500}
           className=" uppercase pl-1"
         >
-          Codes
+          SAGAM{" "}
         </Link>{" "}
       </Box>
 
       <Box className="flex justify-center items-center">
         <Link
-          href="#projects"
+          href="#work"
           underline="none"
           p="0px 5px 0px 0px"
           color={colors.pink[500]}

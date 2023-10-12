@@ -88,7 +88,7 @@ export default function About() {
                 backgroundColor={colors.pink[400]}
                 color={"#fff"}
                 underline="none"
-                href="#projects"
+                href="#work"
                 variant="h5"
                 fontWeight={700}
                 className=" inline-flex border-0 py-3 px-6 focus:outline-none transform duration-500 hover:bg-pink-700 hover:text-white rounded text-lg shadow-lg hover:shadow-xl text-center leading-relaxed"
