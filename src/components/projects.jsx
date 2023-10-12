@@ -11,7 +11,7 @@ export default function Projects() {
     color: colors.pink[200],
   };
   return (
-    <Box id="projects" backgroundColor={colors.blue[700]}>
+    <Box id="work" backgroundColor={colors.blue[700]}>
       <div className="container px-5 py-4 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
